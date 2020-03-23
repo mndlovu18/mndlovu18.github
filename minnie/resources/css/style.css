@@ -1,0 +1,454 @@
+/*............................................*/
+/*BASIC CODE*/
+/*............................................*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	focus: none;
+
+}
+
+html {
+	background-color: #fff;
+	color: #f7f5f5;
+	font-family: 'Montserrat','Amatic SC','Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	text-rendering: optimizeLegibility;
+	
+}
+/*............................................*/
+/* REUSABLE CODE
+/*............................................*/
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+	
+}
+/*............................................*/
+/* HEADER*/
+/*............................................*/
+
+header {
+	background-image:linear-gradient(rgba(14, 14, 56, 0.58),rgba(8, 8, 34, 0.05) ), url(img/background.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 100vh;
+	
+}
+
+/* main-nav*/
+
+.main-nav {
+	float: right;
+	list-style: none;
+	margin-top: 25px;
+}
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 65%;
+	font-weight: 300;
+	
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+	padding: 6px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 100%;
+    border-bottom: 2px solid transparent;
+	transition: 0.2s;
+	
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	color: #ff0b35;
+	font-weight: 700;
+}
+.home li {
+	font-family: 'Montserrat','Amatic SC','Lato', sans-serif;
+	display: inline-block;
+	margin-left: 40px;
+	float: left;
+	list-style: none;
+	margin-top: 25px;
+	color: #fff;
+	font-weight: 300;
+	font-size: 65%;
+	
+}
+
+/*sticky-nav*/
+
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+    background-color:rgb(8, 8, 34);
+	box-shadow: 0 2px 2px rgb(19, 19, 60);
+	z-index: 999;
+}
+
+.minnie-text-box {
+	position: absolute;
+	width: 500px;
+	top: 50%;
+	left: 40%;	
+	height: 150px;
+	font-size: 200%;
+    font-family: 'Montserrat','Amatic SC', sans-serif;	
+	font-weight: 300;
+	
+}
+
+.greeting {
+	position: relative;
+	transform: translate(13%);
+	padding-bottom: 20px;
+	
+}
+
+/* ----------------------------------------------- */
+/* Footer */
+/* ----------------------------------------------- */
+
+
+.footers {
+	position: relative;
+	top: 480px;
+	left: 350px;
+}
+
+
+footer {
+	background-color: rgb(13, 13, 44);
+	height: 10vh;
+	
+}
+
+
+
+
+.copyright {
+	float: right;
+	font-size: 70%;
+	margin-top: 20px;
+	font-weight: 300;
+
+}
+
+/* Mobile navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
+
+
+/* ----------------------------------------------- */
+/* Animations */
+/* ----------------------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3
+{
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
+}
+
+/*............................................*/
+/* SECTION 1:ABOUT ME*/
+/*............................................*/
+.section-featuresss {
+	
+	background-color: rgb(8, 8, 34);
+	height: 190vh;
+
+}
+.section-features {
+	background-color: rgb(8, 8, 34);
+	height: 130vh;
+}
+
+.about {
+	margin-top: 60px;
+	font-size: 150%;
+	color:  #fff;
+}
+
+.intro {
+	font-family:  'Lato', sans-serif;
+	margin-top: 60px;
+	font-weight: 300;
+	font-size: 80%;
+	width: 50%;
+	float: left;
+	word-spacing: 2px;
+	height: 65%;
+	line-height: 25px;
+	background-color: rgb(13, 13, 44);
+	padding: 80px;
+	
+}
+
+.aurthor {
+	width: 25%;
+	float: right;
+	height: 45%;
+	border-radius: 50%;
+	/*border: 5px solid  #e83554;*/
+	margin-top: 120px;
+	position: relative;
+	right: 15%;
+
+ 
+}
+
+/*............................................*/
+/* SECTION 2:PERSONAL DEVELOPMENT*/
+/*............................................*/
+
+.span-1-of-2 {
+	
+}
+
+.column {
+	margin-left: 10%;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.columnn {
+	margin-left: 10%;
+	margin-top: 500px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.center {
+	
+	color: #fff;
+	font-weight: 300;
+	font-size: 200%;
+}
+.section-featuress {
+	background-color:rgb(13, 13, 44);
+	height: 190vh;
+	
+}
+
+.aboutme {
+	margin-top: 70px;
+	font-size: 200%;
+	color:  #fff;
+	text-align: center;
+}
+
+.block {
+	width: 90%;
+	height: 700%;
+	background-color: aqua;
+}
+
+.up {
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 80%;
+    padding: 100px 50px;
+	
+}
+
+/*............................................*/
+/* SECTION 3:DROP ME A LINE*/
+/*............................................*/
+
+
+.social-links {
+	float: left;
+	list-style: none;
+	margin-left: 70px;	
+	position: absolute;
+	width: 400px;
+	left: 32%;
+	margin-top: 50px;
+	text-align: center;
+
+}
+
+.social-links li  {
+	display: inline-block;
+	margin-left: 10px;
+	align-items: center;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-color: rgb(13, 13, 44); 
+	background-size: cover;
+	padding: 200px;
+	background-size: auto;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	box-sizing: border-box;
+	font-size: 130%;
+}
+ 
+.social-links li a:link,
+.social-links li a:visited {
+    color: #e83554;
+	padding: 50px;
+}
+
+.social-links li a:hover,
+.social-links li a:active {
+	color: #fff;
+	
+}
+
+.zuluwear {
+	margin-top: 110px;
+
+}
+
+
+.columns {
+	margin-bottom: 220px;
+}
+
+
+
+.center {
+	
+	color: #fff;
+	font-weight: 300;
+	font-size: 200%;
+}
+
+.contact {
+	
+	position: relative;
+	margin-top: 600px;
+}
+.span-1-of-3 {
+	height: 40px;
+}
+
+.h2 {
+	position: relative;
+	left: 30%;
+	margin-top: 50px;
+	margin-bottom: 30px;	
+}
+
+h2:after {
+	
+	display: block;
+	height: 2px;
+	background-color: #e83554;
+	content: "";
+	width: 40px;
+	margin-left: 90px;
+	margin-bottom: 60px;
+	margin-top: 20px;
+}
+
+.contact-form {
+	width: 60%;
+	margin: 0 auto;
+	margin-left: 160px;
+	font-family: 'Lato', sans-serif;
+}
+
+input[type=email],
+input[type=text],
+textarea {
+	width: 100%;
+	padding: 7px;
+	border-radius: 3px;
+	
+}
+.btn:link,
+.btn:visited,
+input[type=submit] {
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+	background-color: #e83554;
+	border: 1px solid #e83554;
+	color: ;
+	margin-right: 15px;	
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]:hover
+input[type=submit}:active{
+	border: 1px solid #e83554;
+}
+input[type=checkbox] {
+	margin: 10px 5px 10px 0;
+}
+
+*:focus{outline: none;
+}
+
+
+/*............................................*/
+/* SECTION 3:FOOTER*/
+/*............................................*/
+.section-featuresss {
+	background-color:rgb(13, 13, 44);
+	height: 100vh;
+}
+
+
+
+
+
+
+
+
+
