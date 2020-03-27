@@ -1,65 +1,367 @@
 
 /* Big tablets to 1200px: from 1023 to 1200px */
 @media only screen and (max-width: 1200px){
-	.row { padding: 0 2%; }
-}
+	.home li{font-size: 150%}
+	.sticky {width: 75%}
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
 
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	.row { padding: 0 2%; }
+	
+	.social-links li a:link,
+   .social-links li a:visited {
+    
+	padding: 40px;
+}
+	
+}
 
 /* Small tablets to big tablets: from 768 to 1023px */
 @media only screen and (max-width: 1023px){
-	 
-	.intro {
-		padding: 10px;
-	    
 	
+	.home li{font-size: 150%}
+	.sticky {width: 75%}
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	
+	
+	 
+	.main-nav li {
+		
+	margin-left: 10px;
+	font-size: 60%;
+		
+     }
+	
+	.minnie-text-box {font-size: 150%}
+	 
+	.greeting{transform: translate(10%)}
+	
+	.aurthor {
+		
+		width: 35%;
+	    right: 5%;
 	}
 	
+	.intro {padding: 40px;}
+	    
 	.column {
+	font-size: 80%;
+	margin-left: 5%;	
+	  
+	  }
+	
+	.columnnn {
+	font-size: 80%;
+	margin-left: 5%;	
+	  
+	  }
+	
+	.columnn {
 	font-size: 80%;
 	margin-left: 5%;	
 
      }
-	
 	.up {padding: 70px 25px}
 	
-	.social-links{margin-left: 40px}	
-
+    .center {font-size: 150%;}
+	
+	.social-links li a:link,
+    .social-links li a:visited {padding: 30px;}
+	
+	
 }
-
 
 /* Small phones to small tablets: from 481 to 767px */
 @media only screen and (max-width: 767px){
-	 
-	.intro { 
-		padding: 0px;
-	    font-size: 50%;
-	}
 	
-	.aurthor { 
-		height: 50%;
-	    margin-top: 50px;
-	}
-	
-	.block {
-	height: 600%;
-}
+	.home li{font-size: 150%}
+     .sticky {width: 60%}
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
     
-	.up {padding: 5px 5px}
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+    
+    
+	
+	
+	.minnie-text-box {left: 30%;}
+	
+	.section-features {height: 150vh;}
+
+	 .aurthor { 
+		height: 30%;
+		margin-top: 180px;
+	    right: 0%;
+	  
+	}
+	
+	.intro { 
+		margin-top: 25px;
+		padding: 30px 0px;
+	    font-size: 80%;
+		width: 60%;
+		height: 75%
+	}
+	
+	.about {margin-top: 25px;}
+	
+	.aboutme {
+		
+		font-size: 100%;
+		margin-top: 50px;
+	
+	}
+
+	.block {width: 100%}
+    
+	.up {padding: 35px 25px;}
+	
+	
+	.social-links li a:link,
+    .social-links li a:visited {padding: 13px}
+	
+	.center{font-size: 97%}
+	
+	
+	.h2 {left: 20%}
+	
+	.contact-form {margin-left: 80px}
+
 	 
 }
    
-.social-links {margin-left: 0px}
 
-
-.social-links li{
+/* Small phones: iphone 6/7/8/8 plus */
+@media screen and (width: 414px) and (height: 736px), (width: 375px) and (height: 812px), (width: 375px) and (height: 667px),(width: 360px) and (height: 640px)  {
 	
-	font-size: 120%;
-	padding: 0px;
+	.home li{font-size: 150%}
+	
+	.sticky {width: 60%}
+	
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	
+	
+	
+	.minnie-text-box {
+	top: 40%;
+	left:20%;
+    
+	}
+
+    .intro { 
+		
+	    font-size: 80%;
+		padding: 50px 5px;
+	    
+	}
+	
+	.columnnn {margin-top: 730px;}
+	
+	.columnn{margin-top: 400px}
+	
+	.zuluwear {display: none}
+	
+	.section-featuresss {
+	
+	background-image:linear-gradient(rgba(14, 14, 56, 0.58),rgba(8, 8, 34, 0.05) ), url(img/minniee.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 190vh;
+
+   }
+	
+	.center {font-size: 200%}
+	
+	.social-links {left: 25%}
+
+   
 }
 
-/* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px){
+
+/* Small phones: from 0px to 481px and iphone 5/SE */
+@media screen  and  (width: 320px) and (height: 568px), (max-width: 481px){
 	
+	.home li{font-size: 150%}
+	.sticky {width:50% }
+	
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	
+	
+	.minnie-text-box {
+	top: 40%;
+	left:15%;
+    }
+ 
+	.block {height: 400%}
+
+    .intro { 
+		
+	font-size: 64%;
+	padding: 10px 5px;
+	    
+	 }
+	
+	.columnnn {margin-top: 600px;}
+	
+	.columnn{margin-top: 350px}
+	
+	.zuluwear {display: none}
+	
+	.section-featuresss {
+	
+	background-image:linear-gradient(rgba(14, 14, 56, 0.58),rgba(8, 8, 34, 0.05) ), url(img/minniee.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 190vh;
+
+   }
+	
+	.center {font-size: 200%}
+	
+	.social-links {left: 25%}
+	
+	.h2 {
+	position: relative;
+	left: 20%;
+	margin-top: 10px;
+	margin-bottom: 30px;	
 }
+
+}
+ 
+	
+
+
+
+
 
 

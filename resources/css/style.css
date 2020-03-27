@@ -248,6 +248,14 @@ footer {
 	font-family: 'Lato', sans-serif;
 }
 
+.columnnn {
+	margin-left: 10%;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	font-family: 'Lato', sans-serif;
+}
+
 
 .columnn {
 	margin-left: 10%;
@@ -257,13 +265,6 @@ footer {
 	font-family: 'Lato', sans-serif;
 }
 
-
-.center {
-	
-	color: #fff;
-	font-weight: 300;
-	font-size: 200%;
-}
 .section-featuress {
 	background-color:rgb(13, 13, 44);
 	height: 190vh;
@@ -300,32 +301,16 @@ footer {
 .social-links {
 	float: left;
 	list-style: none;
-	margin-left: 70px;	
-	position: absolute;
-	width: 400px;
-	left: 32%;
+	position: relative;
+	width: 100%;	
 	margin-top: 50px;
-	text-align: center;
 
 }
 
 .social-links li  {
-	display: inline-block;
-	margin-left: 10px;
-	align-items: center;
-	background-attachment: scroll;
-	background-clip: border-box;
-	background-origin: padding-box;
-	background-color: rgb(13, 13, 44); 
-	background-size: cover;
-	padding: 200px;
-	background-size: auto;
-	border-bottom-left-radius: 50%;
-	border-bottom-right-radius: 50%;
-	border-top-left-radius: 50%;
-	border-top-right-radius: 50%;
-	box-sizing: border-box;
-	font-size: 130%;
+	display:contents;
+	text-align: center;
+	
 }
  
 .social-links li a:link,
@@ -354,9 +339,11 @@ footer {
 
 .center {
 	
+	text-align: center;
 	color: #fff;
 	font-weight: 300;
 	font-size: 200%;
+
 }
 
 .contact {
