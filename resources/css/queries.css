@@ -1,36 +1,7 @@
 
 /* Big tablets to 1200px: from 1023 to 1200px */
 @media only screen and (max-width: 1200px){
-	.home li{display: none}
-
-	.main-nav { display: none; }
-    .mobile-nav-icon {display: inline-block;}
-    
-    .main-nav {
-        float: left;
-        margin-top: 30px;
-        margin-left: 25px;
-    }
-    
-    .main-nav li {
-        display: block;
-    }
-    
-    .main-nav li a:link,
-    .main-nav li a:visited {
-        display: block;
-        border: 0;
-        padding: 10px 0;
-        font-size: 100%;
-    }
-    
-    .sticky .main-nav { margin-top: 10px; }
-
-    .sticky .main-nav li a:link,
-    .sticky .main-nav li a:visited { padding: 10px 0; }
-    .sticky .mobile-nav-icon { margin-top: 10px; }
-    .sticky .mobile-nav-icon i { color: #555; }
-   
+	
 	.row { padding: 0 2%; }
 	
 	.social-links li a:link,
@@ -43,39 +14,6 @@
 
 /* Small tablets to big tablets: from 768 to 1023px */
 @media only screen and (max-width: 1023px){
-	
-	.home li{display: none}
-
-	.main-nav { display: none; }
-    .mobile-nav-icon {display: inline-block;}
-    
-    .main-nav {
-        float: left;
-        margin-top: 30px;
-        margin-left: 25px;
-    }
-    
-    .main-nav li {
-        display: block;
-    }
-    
-    .main-nav li a:link,
-    .main-nav li a:visited {
-        display: block;
-        border: 0;
-        padding: 10px 0;
-        font-size: 100%;
-    }
-    
-    .sticky .main-nav { margin-top: 10px; }
-
-    .sticky .main-nav li a:link,
-    .sticky .main-nav li a:visited { padding: 10px 0; }
-    .sticky .mobile-nav-icon { margin-top: 10px; }
-    .sticky .mobile-nav-icon i { color: #555; }
-   
-	
-	
 	 
 	.main-nav li {
 		
@@ -115,7 +53,10 @@
      }
 	.up {padding: 70px 25px}
 	
-    .center {font-size: 150%;}
+    .center {
+		font-size: 150%;
+
+	}
 	
 	.social-links li a:link,
     .social-links li a:visited {padding: 30px;}
@@ -156,12 +97,9 @@
     .sticky .mobile-nav-icon { margin-top: 10px; }
     .sticky .mobile-nav-icon i { color: #555; }
     
-    
-	
-	
 	.minnie-text-box {left: 30%;}
 	
-	.section-features {height: 150vh;}
+	.section-features, .section-featuress, .section-featuresss {height: 120vh;}
 
 	 .aurthor { 
 		height: 30%;
@@ -171,14 +109,16 @@
 	}
 	
 	.intro { 
-		margin-top: 25px;
-		padding: 30px 0px;
+		margin-top: 50px;
 	    font-size: 80%;
 		width: 60%;
-		height: 75%
+		height: 75%;
+		padding: 20px;
+		letter-spacing: 3px;
+	
 	}
 	
-	.about {margin-top: 25px;}
+	.about {margin-top: 50px;}
 	
 	.aboutme {
 		
@@ -241,8 +181,6 @@
     .sticky .mobile-nav-icon i { color: #555; }
    
 	
-	
-	
 	.minnie-text-box {
 	top: 40%;
 	left:20%;
@@ -262,18 +200,26 @@
 	
 	.zuluwear {display: none}
 	
+	.section-features {height: 100vh}
+	
+	.section-featuress {height: 160vh}
+	
+	
+	
 	.section-featuresss {
 	
 	background-image:linear-gradient(rgba(14, 14, 56, 0.58),rgba(8, 8, 34, 0.05) ), url(img/minniee.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	height: 190vh;
+	height: 70vh;
 
    }
 	
 	.center {font-size: 200%}
 	
 	.social-links {left: 25%}
+	
+	input[type=submit] {background-color: #910921}
 
    
 }
@@ -351,8 +297,10 @@
 	position: relative;
 	left: 20%;
 	margin-top: 10px;
-	margin-bottom: 30px;	
-}
+	margin-bottom: 30px;
+		
+     }
+	
 
 }
  
