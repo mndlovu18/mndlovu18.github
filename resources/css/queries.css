@@ -144,10 +144,574 @@
 
 	 
 }
-   
 
-/* Small phones: iphone 6/7/8/8 plus */
-@media screen and (width: 414px) and (height: 736px), (width: 375px) and (height: 812px), (width: 375px) and (height: 667px),(width: 360px) and (height: 640px)  {
+
+/* ipad pro */
+
+
+@media screen and (width: 1024px) and (height: 1366px) {
+	
+	
+	
+	.home li{display: none}
+
+	
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	
+	.section-features, .section-featuress {height: 80vh}
+	
+	.section-featuresss{height: 120vh}
+	
+	.intro { 
+		
+	    font-size: 100%;
+		padding: 80px 20px;
+		letter-spacing: 3px;
+	    
+	 }
+   
+}.home li{display: none}
+
+	
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	
+	.minnie-text-box {
+	top: 40%;
+	left:20%;
+    
+	}
+
+    .intro { 
+		
+	    font-size: 80%;
+		padding: 20px 10px;
+	    
+	}
+	
+	.columnnn {margin-top: 860px;}
+	
+	.columnn{margin-top: 470px}
+	
+	.up{padding: 100px 50px}
+	
+	.zuluwear {display: none}
+	
+	.section-features, .section-featuress{height:  220vh}
+	
+	.section-featuresss {height:  170vh}
+	
+	.section-featuresss {
+	
+	background-image:linear-gradient(rgba(14, 14, 56, 0.58),rgba(8, 8, 34, 0.05) ), url(img/minniee.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+   
+   }
+	
+	.center {font-size: 200%}
+	
+	.social-links {left: 25%}
+	
+	input[type=submit] {background-color: #910921}
+
+   
+}
+
+
+
+
+
+/* ipad */
+
+
+@media screen and (width: 768px) and (height: 1024px) {
+	
+	
+	
+	.home li{display: none}
+
+	
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	
+	.section-features, .section-featuress, .section-featuresss {height: 120vh;}
+	
+	.intro { 
+		
+	    font-size: 100%;
+		padding: 80px 20px;
+		letter-spacing: 3px;
+	    
+	 }
+   
+}
+
+
+
+/* Small phones: iphone 6/7/8plus */
+
+
+@media screen and (width: 414px) and (height: 736px) {
+	
+	
+	
+	.home li{display: none}
+
+	
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	
+	.minnie-text-box {
+	top: 40%;
+	left:20%;
+    
+	}
+
+    .intro { 
+		
+	    font-size: 80%;
+		padding: 20px 10px;
+	    
+	   }
+	
+	.columnnn {margin-top: 860px;}
+	
+	.columnn{margin-top: 470px}
+	
+	.up{padding: 100px 50px}
+	
+	.zuluwear {display: none}
+	
+	.section-features{ height: 180vh} 
+	
+	.section-featuress{height:  220vh}
+	
+	.section-featuresss {height:  120vh}
+	
+	.section-featuresss {
+	
+	background-image:linear-gradient(rgba(14, 14, 56, 0.58),rgba(8, 8, 34, 0.05) ), url(img/minniee.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+   
+   }
+	
+	.columns {margin-bottom: 150px}
+	
+	.center {font-size: 200%}
+	
+	.contact {margin-top: 400px }
+	
+	.social-links {left: 25%}
+	
+	.h2:after{margin-bottom: 10px}
+	
+	input[type=submit] {background-color: #910921}
+	
+
+   
+}
+
+
+
+
+
+/* Small phones: iphone 6/7/8 */
+
+
+@media screen and (width: 375px) and (height: 667px) {
+	
+	
+	
+	.home li{display: none}
+
+	
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	
+	.minnie-text-box {
+	top: 40%;
+	left:20%;
+    
+	}
+
+    .intro { 
+		
+	    font-size: 80%;
+		padding: 20px 10px;
+	    
+	}
+	
+	.columnnn {margin-top: 860px;}
+	
+	.columnn{margin-top: 470px}
+	
+	.up{padding: 100px 50px}
+	
+	.zuluwear {display: none}
+	
+	.section-features, .section-featuress{height:  220vh}
+	
+	.section-featuresss {height:  170vh}
+	
+	.section-featuresss {
+	
+	background-image:linear-gradient(rgba(14, 14, 56, 0.58),rgba(8, 8, 34, 0.05) ), url(img/minniee.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+   
+   }
+	
+	.center {font-size: 200%}
+	
+	.social-links {left: 25%}
+	
+	input[type=submit] {background-color: #910921}
+
+   
+}
+
+
+/* Small phones: iphone X */
+
+
+@media screen and (width: 375px) and (height: 812px) {
+	
+	
+	
+	.home li{display: none}
+
+	
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	
+	.minnie-text-box {
+	top: 40%;
+	left:20%;
+    
+	}
+
+    .intro { 
+		
+	    font-size: 70%;
+		padding: 20px 10px;
+	    
+	}
+	
+	.columnnn {margin-top: 860px;}
+	
+	.columnn{margin-top: 470px}
+	
+	.up{padding: 100px 50px}
+	
+	.zuluwear {display: none}
+	
+	.section-features{height:  150vh}
+	
+	.section-featuress{height: 180vh}
+
+	.section-featuresss {height:  120vh}
+	
+	.section-featuresss {
+	
+	background-image:linear-gradient(rgba(14, 14, 56, 0.58),rgba(8, 8, 34, 0.05) ), url(img/minniee.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+   
+   }
+	
+	.center {font-size: 200%}
+	
+	.contact {margin-top: 500px }
+	
+	.columns {margin-bottom: 150px}
+	
+	.social-links {left: 25%}
+	
+	.h2:after{margin-bottom: 10px}
+	
+	input[type=submit] {background-color: #910921}
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small phones: iphone 6/7/8/8 plus 
+@media screen and (width: 414px) and (height: 736px) {
+	
+	
+	
+	.home li{display: none}
+
+	
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	
+	.minnie-text-box {
+	top: 40%;
+	left:20%;
+    
+	}
+
+    .intro { 
+		
+	    font-size: 80%;
+		padding: 50px 50px;
+	    
+	}
+	
+	.columnnn {margin-top: 730px;}
+	
+	.columnn{margin-top: 400px}
+	
+	.zuluwear {display: none}
+	
+	
+	
+	
+	.section-featuresss {
+	
+	background-image:linear-gradient(rgba(14, 14, 56, 0.58),rgba(8, 8, 34, 0.05) ), url(img/minniee.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+   
+   }
+	
+	.center {font-size: 200%}
+	
+	.social-links {left: 25%}
+	
+	input[type=submit] {background-color: #910921}
+
+   
+}
+
+/* Small phones: iphone 6/7/8/8 plus 
+@media screen and  (width: 375px) and (height: 667px) {
+	
+	
 	
 	.home li{display: none}
 
@@ -221,10 +785,177 @@
 	input[type=submit] {background-color: #910921}
 
    
+	
+	
 }
 
 
-/* Small phones: from 0px to 481px and iphone 5/SE */
+/* Small phones: iphone 6/7/8/8 plus 
+@media screen and (width: 360px) and (height: 640px) {
+	
+	
+	
+	.home li{display: none}
+
+	
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	
+	.minnie-text-box {
+	top: 40%;
+	left:20%;
+    
+	}
+
+    .intro { 
+		
+	    font-size: 80%;
+		padding: 50px 5px;
+	    
+	}
+	
+	.columnnn {margin-top: 730px;}
+	
+	.columnn{margin-top: 400px}
+	
+	.zuluwear {display: none}
+	
+	.section-features {height: 190vh}
+	
+	.section-featuress {height: 190vh}
+	
+	
+	
+	.section-featuresss {
+	
+	background-image:linear-gradient(rgba(14, 14, 56, 0.58),rgba(8, 8, 34, 0.05) ), url(img/minniee.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+   }
+	
+	.center {font-size: 200%}
+	
+	.social-links {left: 25%}
+	
+	input[type=submit] {background-color: #910921}
+
+   
+	
+	
+	
+}
+  
+
+/* Small phones: iphone 6/7/8/8 plus 
+@media screen and (width: 414px) and (height: 736px){
+	
+	
+	.home li{display: none}
+
+	
+	.main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+   
+	
+	.minnie-text-box {
+	top: 40%;
+	left:20%;
+    
+	}
+
+    .intro { 
+		
+	    font-size: 80%;
+		padding: 50px 5px;
+	    
+	}
+	
+	.columnnn {margin-top: 730px;}
+	
+	.columnn{margin-top: 400px}
+	
+	.zuluwear {display: none}
+	
+	.section-features {height: 190vh}
+	
+	.section-featuress {height: 190vh}
+	
+	
+	
+	.section-featuresss {
+	
+	background-image:linear-gradient(rgba(14, 14, 56, 0.58),rgba(8, 8, 34, 0.05) ), url(img/minniee.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+   }
+	
+	.center {font-size: 200%}
+	
+	.social-links {left: 25%}
+	
+	input[type=submit] {background-color: #910921}
+
+   
+	
+}
+
+
+
+
+/* Small phones: from 0px to 481px and iphone 5/SE 
 @media screen  and  (width: 320px) and (height: 568px), (max-width: 481px){
 	
 	.home li{display: none}
