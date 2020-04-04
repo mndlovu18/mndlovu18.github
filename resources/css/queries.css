@@ -103,7 +103,7 @@
     
 	.minnie-text-box {left: 30%;}
 	
-	.section-features, .section-featuress, .section-featuresss {height: 120vh;}
+	.section-features, .section-featuress, .section-featuresss {height: 160vh;}
 
 	 .aurthor { 
 		height: 30%;
@@ -206,11 +206,11 @@
 	
 	.zuluwear {display: none}
 	
-	.section-features{ height: 180vh} 
+	.section-features{ height: 220vh} 
 	
-	.section-featuress{height:  220vh}
+	.section-featuress{height:  260vh}
 	
-	.section-featuresss {height:  120vh}
+	.section-featuresss {height:  160vh}
 	
 	.section-featuresss {
 	
@@ -300,11 +300,11 @@
 	
 	.zuluwear {display: none}
 	
-	.section-features{ height: 200vh} 
+	.section-features{ height: 220vh} 
 	
-	.section-featuress{height:  240vh}
+	.section-featuress{height:  280vh}
 	
-	.section-featuresss {height:  140vh}
+	.section-featuresss {height:  180vh}
 	
 	.section-featuresss {
 	
@@ -394,9 +394,9 @@
 	
 	.zuluwear {display: none}
 	
-	.section-features, .section-featuress{height:  240vh}
+	.section-features, .section-featuress{height:  260vh}
 	
-	.section-featuresss {height:  190vh}
+	.section-featuresss {height:  220vh}
 	
 	.section-featuresss {
 	
@@ -476,11 +476,11 @@
 	
 	.zuluwear {display: none}
 	
-	.section-features{height:  170vh}
+	.section-features{height:  200vh}
 	
-	.section-featuress{height: 200vh}
+	.section-featuress{height: 240vh}
 
-	.section-featuresss {height:  140vh}
+	.section-featuresss {height:  180vh}
 	
 	.section-featuresss {
 	
@@ -584,7 +584,7 @@
 	margin-bottom: 30px;
 		
      }
-	.section-features, .section-featuress, .section-featuresss {height: 240vh;}
+	.section-features, .section-featuress, .section-featuresss {height: 280vh;}
 
  
 }
