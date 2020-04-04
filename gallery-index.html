@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minolta - Photo Gallery</title>    
+		<!-- Main CSS File -->
+		<link rel="stylesheet" href="css/styles.css" type="text/css" />
+		<!-- Add fancyBox CSS -->
+		<link rel="stylesheet" href="css/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/fancybox/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/fancybox/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    </head>
+    <body>
+		<header>
+			<div class="container">
+				<nav id="navbar"></nav>
+			</div><!-- container -->
+		</header>
+		
+		<section id="main">
+			<div class="container">
+				<ul id="gallery">
+					<li data-tags="Flowers"><a class="fancybox" rel="group" href="img/Gallery/flower.jpg"><img src="img/Gallery/flower.jpg" height="150px" width="150px" ></a></li>
+					<li data-tags="Flowers"><a class="fancybox" rel="group" href="img/Gallery/flower2.jpg"><img src="img/Gallery/flower2.jpg" height="150px" width="150px"></a></li>
+					<li data-tags="Flowers"><a class="fancybox" rel="group" href="img/Gallery/flower3.jpg"><img src="img/Gallery/flower3.jpg" height="150px" width="150px"></a></li>
+					<li data-tags="Flowers"><a class="fancybox" rel="group" href="img/Gallery/flower4.jpg"><img src="img/Gallery/flower4.jpg" height="150px" width="150px"></a></li>
+					<li data-tags="Flowers"><a class="fancybox" rel="group" href="img/Gallery/flower.jpg"><img src="img/Gallery/IMG_2853.jpg" height="150px" width="150px"></a></li>
+					<li data-tags="BrynMawr"><a class="fancybox" rel="group" href="img/Gallery/IMG_3019.JPG"><img src="img/Gallery/IMG_3019.JPG" height="150px" width="150px"></a></li>
+					<li data-tags="BrynMawr"><a class="fancybox" rel="group" href="img/Gallery/IMG_3021.JPG"><img src="img/Gallery/IMG_3021.JPG" height="150px" width="150px"></a></li>
+					<li data-tags="BrynMawr"><a class="fancybox" rel="group" href="img/Gallery/IMG_3123.jpg"><img src="img/Gallery/IMG_3123.jpg" height="150px" width="150px"></a></li>
+					<li data-tags="BrynMawr"><a class="fancybox" rel="group" href="img/Gallery/IMG_3138_edited.jpg"><img src="img/Gallery/IMG_3138_edited.jpg" height="150px" width="150px"></a></li>
+					<li data-tags="BrynMawr"><a class="fancybox" rel="group" href="img/Gallery/IMG_3176_edited.jpg"><img src="img/Gallery/IMG_3176_edited.jpg" height="150px" width="150px"></a></li>
+					<li data-tags="BrynMawr"><a class="fancybox" rel="group" href="img/Gallery/IMG_3184_edited.jpg"><img src="img/Gallery/IMG_3184_edited.jpg" height="150px" width="150px"></a></li>
+					<li data-tags="Flowers"><a class="fancybox" rel="group" href="img/Gallery/IMG_3204_edited.jpg"><img src="img/Gallery/IMG_3204_edited.jpg" height="150px" width="150px"></a></li>
+					<li data-tags="BrynMawr"><a class="fancybox" rel="group" href="img/Gallery/IMG_3212_edited.jpg"><img src="img/Gallery/IMG_3212_edited.jpg" height="150px" width="150px"></a></li>
+					<li data-tags="BrynMawr"><a class="fancybox" rel="group" href="img/Gallery/lantern.jpg"><img src="img/Gallery/lantern.jpg" height="150px" width="150px"></a></li>
+					<li data-tags="BrynMawr"><a class="fancybox" rel="group" href="img/Gallery/minnieee.jpg"><img src="img/Gallery/minnieee.jpg" height="150px" width="150px"></a></li>
+					<li data-tags="Flowers"><a class="fancybox" rel="group" href="img/Gallery/red.jpg"><img src="img/Gallery/red.jpg" height="150px" width="150"></a></li>
+									
+				</ul>
+			</div><!-- container -->
+			<hr>
+			<footer>
+				<div class="container">
+					<p>MINOLTA Photo Gallery &copy; 2020</p>
+				</div><!-- container -->
+			</footer>
+		</section>
+		
+		<!-- Include JQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Quicksand Plugin -->
+		<script src="js/jquery.quicksand.js"></script>
+		<!-- Fancybox js -->
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox-buttons.js"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox-media.js?v=1.0.6"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+		<!-- Include Custom JS-->
+		<script src="js/script.js"></script>
+		<script>
+			//Call Fancybox
+			$(document).ready(function(){
+				$(".fancybox").fancybox();
+			});
+		</script>
+    </body>
+</html>s
